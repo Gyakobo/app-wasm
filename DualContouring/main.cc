@@ -124,22 +124,22 @@ namespace DualContouring
     }
 }
 
-// int main()
-// {
-//     const ivec3 OFFSETS[8] =
-//         {
-//             ivec3(0, 0, 0), ivec3(1, 0, 0), ivec3(0, 0, 1), ivec3(1, 0, 1),
-//             ivec3(0, 1, 0), ivec3(1, 1, 0), ivec3(0, 1, 1), ivec3(1, 1, 1)};
+/*int main()
+{
+    const ivec3 OFFSETS[8] =
+        {
+            ivec3(0, 0, 0), ivec3(1, 0, 0), ivec3(0, 0, 1), ivec3(1, 0, 1),
+            ivec3(0, 1, 0), ivec3(1, 1, 0), ivec3(0, 1, 1), ivec3(1, 1, 1)};
 
-//     for (int i = 0; i < 4; i++)
-//     {
-//         vec3 pos = vec3(OFFSETS[i] * 64);
-//         DualContouring::createChunk(pos.x, pos.y, pos.z);
-//     }
+    for (int i = 0; i < 4; i++)
+    {
+        vec3 pos = vec3(OFFSETS[i] * 64);
+        DualContouring::createChunk(pos.x, pos.y, pos.z);
+    }
 
-//     cout << "\n"
-//          << DualContouring::createSeam(0, 0, 0) << "\n"
-//          << endl;
+    cout << "\n"
+         << DualContouring::createSeam(0, 0, 0) << "\n"
+         << endl;
 
-//     return 0;
-// }
+    return 0;
+}*/
